@@ -9,9 +9,21 @@
 ** Using PhantomJS
 
 * Underscore.js
-** The basics of founctional programming
+** The basics of functional programming
+** Working with lists and collections
+*** Map, Filter, Reduce etc
+*** Chaining operations
+** Workshop: Working with YQL data
 
 * Backbone.js
+** Introduction to Backbone.js
+** Backbone Components
+*** Events
+*** Models
+*** Collections
+*** Sync
+*** History & Router
+
 
 * Backbone Patterns
 
