@@ -1,0 +1,15 @@
+
+= Zachary Kessin
+
+Zachary Kessin has been developing applications on the World Wide Web
+since around 1993. Over the years he has worked in Perl, PHP, Scheme, 
+JavaScript, Erlang, and CoffeeScript. Today Zachary splits his time
+between working in CoffeeScript with Backbone in the client as doing
+Erlang in the server. 
+
+Zachary Is the author of "Building Web Applications with Erlang"
+(2012) and "Programming HTML5 Applications" (2011) Both of which are
+published by O'Reilly. Currently he is at work on a new writing
+project based around GIT and Mercurial. 
+ 
+You can follow Zachary on twitter @zkessin
