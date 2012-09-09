@@ -1,0 +1,21 @@
+= Backbone.js (3 days)
+
+* QUnit and Jasmine
+** Browser Automation with Selenium 
+** Basics of TDD
+** Testing with QUnit
+** Testing With Jasmine
+** Setting up Mocks
+** Using PhantomJS
+
+* Underscore.js
+** The basics of founctional programming
+
+* Backbone.js
+
+* Backbone Patterns
+
+* Integration with Backbone Marionette 
+
+
+* Workshop (Half day)

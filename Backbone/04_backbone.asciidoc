@@ -1,0 +1,124 @@
+
+== Backbone.js
+
+* Zachary Kessin
+* zkessin@gmail.com
+* +972 54 234 3956
+* twitter @zkessin
+
+== backbone.js
+* Created by Jeremy Ashkanaz at the New York Times
+* Spun off from Document Cloud Project
+........................................
+http://documentcloud.github.com/backbone/
+........................................
+
+== Backbone Philosophy
+* Backbone is lightweight
+* Backbone should be extended
+* Backbone is flexible
+* Backbone Plays well with others (Bootstrap, JQuery Mobile etc)
+
+== Lets Dive In!
+=== Backbone Components
+* Events
+* Models
+* Collections
+* Views
+* Sync
+* History
+* Router
+
+== Events
+* All Backbone Objects can fire events
+* Events can be namespaced with a ":"
+* In addition to predefined events you can define your own
+........................................
+myModel.on("xyzzy", () -> ...)
+myModel.trigger("xyzzy")
+........................................
+
+
+
+== Views
+* Views proxy between the DOM and application
+* Views are template system agnostic 
+* Views can proxy events to internal functions
+
+== Rendering Views
+* rendering actually creates the HTML
+* Use a template engine to render
+
+........................................
+var Bookmark = Backbone.View.extend(
+  render: () -> 
+    @$el.html(@template(this.model.toJSON()))
+    @)
+........................................
+
+== Handling UI Events
+* Proxy UI events to handler functions
+* Auto binding
+
+........................................
+var DocumentView = Backbone.View.extend(
+  events: 
+    "dblclick"                : "open",
+    "click .icon.doc"         : "select",
+    "contextmenu .icon.doc"   : "showMenu",
+    "click .show_notes"       : "toggleNotes",
+    "click .title .lock"      : "editAccessLevel",
+    "mouseover .title .date"  : "showTooltip"
+  ...)
+........................................
+
+== Models
+* A model should represent One record 
+* Models know how to load and save themselves via REST
+* Models can have validation 
+........................................
+var Sidebar = Backbone.Model.extend({
+  promptColor: function() {
+    var cssColor = prompt("Please enter a CSS color:");
+    this.set({color: cssColor});
+  }
+});
+
+window.sidebar = new Sidebar;
+
+sidebar.on('change:color', function(model, color) {
+  $('#sidebar').css({background: color});
+});
+
+sidebar.set({color: 'white'});
+
+sidebar.promptColor();
+
+........................................
+
+== Collections
+* A collection is an ordered group of Models
+* Collections bundle groups of models together
+* Collections can load data as a batch
+
+== Event Proxies
+* Any event triggered on a model will also trigger on the owning collection
+
+
+== Loading Data
+* To load via ajax use ".fetch()"
+* If possible load on page load
+
+........................................
+<script>
+MyCollection.reset(<?php echo json_encode($my_data);?>);
+</script>
+........................................
+== Undescore Methods
+* All the underscore methods (map, filter, reduce etc) work on collections
+
+== Sync
+* Sync Loads Data
+* By Default will load JSON over REST/HTTP
+* Plugins for XML, Localstorage, JSONP etc
+* Normaly can be ignored

@@ -1,0 +1,60 @@
+
+== Underscore.js
+
+* Zachary Kessin
+* zkessin@gmail.com
+* +972 54 234 3956
+* twitter @zkessin
+
+== Underscore.js
+* Created by Jeremy Ashkanaz at the New York Times
+* Spun off from Document Cloud Project
+* Key dependency of backbone.js
+........................................
+http://underscorejs.org/
+........................................
+
+== Underscore.js the basics:
+
+=== Underscore.js provides a consistent functional interface to lists and objects
+General list functions
+
+* map()
+* filter() /reject()
+* reduce()
+* pluck()
+
+== Map
+* Takes a list and a function returns a new list
+
+........................................
+_.map([1,2,3,4], function (x) {return x*x;}) => [1,4, 9, 16]
+........................................
+
+== filter
+* Takes a list and returns a subset
+........................................
+_.filter([1,2,3,4], function (x) {return x % 2 === 0;}) => [2, 4]
+........................................
+
+== any() and all()
+* any(): true if at least 1 item passes
+* all(): true if *all* items pass)
+........................................
+_.any([1,2,3,4], function (x) {return x % 2 === 0;}) => true
+_.al
+l([1,2,3,4], function (x) {return x % 2 === 0;}) => false
+........................................
+
+== Chaining
+* When you want to perform a bunch of operations
+........................................
+
+_.chain([1,2,3,4,5,6,7, 8])
+	.filter((x)	->  x > 3)
+	.map((x)	->  x * x)
+	.map((x)        ->  x + 1)
+	.value()  => [17, 26, 37, 50, 65]
+........................................
+
+

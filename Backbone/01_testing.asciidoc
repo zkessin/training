@@ -1,0 +1,160 @@
+= Testing in Javascript
+
+* Zachary Kessin
+* zkessin@gmail.com
+* 054 234 3956
+* twitter @zkessin
+
+
+
+== Options for Testing
+
+* JSUnit (Defunct)
+* QUnit
+* Jasmine
+* Selenium
+
+== Selenium
+http://seleniumhq.org
+
+* Selenium Drives the browser
+* Selenium runs your UI 
+* Selenium is slow
+* Selenium should be used for integration testing and the like
+* Selenium can be driven from a programming language (PHP, Java, Node.js, Ruby etc)
+
+== Using Selenium for Test Automation
+* Use to launch a browser for other tests
+* Cross browser (run on IE, Firefox, Chrome etc)
+* There are cloud services for this
+
+== Use Selenium as a Macro recorder
+* Selenium IDE For firefox 
+* Can load a page, click here, fill in some elements etc
+
+== Constructing a test
+* Selenium can address elements By ID, XPATH, CSS Selector etc
+* command element (params) 
+
+== Other uses for Selenium
+* Programmable interface for a browser
+* Screen Scraping 
+
+== QUnit
+* QUnit should be used for Unit testing
+* http://qunitjs.com
+
+== Setting up QUnit
+........................................
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="/resources/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <script src="/resources/qunit.js"></script>
+  <script src="/resources/tests.js"></script>
+</body>
+</html>
+........................................
+== A basic QUnit Test
+
+........................................
+test( "hello test", function() {
+  ok( 1 == "1", "Passed!" );
+});
+........................................
+
+== QUnit Assertions 
+* ok(A, Msg)
+* equal(A, B, Msg)
+* deapEqual(A, B, Msg)
+* notEqual(A,B, Msg)
+
+
+== Organising tests
+* test
+* module
+........................................
+module("group a")
+test( "hello test", function() {
+  ok( 1 == "1", "Passed!" );
+});
+module("group b")
+test( "Goodbye Test", ...
+........................................
+
+== Starting and Stopping
+* Use when code is expecting callbacks
+* will pause the test suite until "start" is called"
+* Stop before the async opp
+* Start in the callback 
+........................................
+
+test("AjaxTest", () ->
+    stop()
+    $.ajax({
+       success: (Result) ->
+            start()
+	    equal(ExpectedResult, Result)
+
+    }))
+........................................
+
+== Expect
+* Set the number of assertions that a test should have
+* Use for async testing and the like 
+* expect(Number)
+........................................
+
+test("AjaxTest", () ->
+    expect(1)
+    stop()
+    $.ajax({
+       success: (Result) ->
+            start()
+	    equal(ExpectedResult, Result)
+
+    }))
+........................................
+
+	
+== Testing Ajax 
+* Network Requests take an undetermined amount of time
+* Networks can fail
+* It Is an end-to-end test
+* use a mock
+https://github.com/appendto/jquery-mockjax
+
+== Testing the DOM
+* The DOM can be slow
+* The dom may be in an uncertain state
+* Solution: Reset the state of the DOM before each test
+* Solution: Use Mock Templates
+
+== Mock Templates
+........................................
+<div>
+    <h1 class='header'><%= title =%></h1>
+    <div> ...
+</div>
+........................................
+
+........................................
+<h1><%= title %></h1>
+........................................
+
+== Strategies for Testing
+* Isolate AJAX with Backbone 
+* Isolate Dom interaction 
+* Pure functions can be tested with Node.js or Rhino
+
+== Headless browsers
+* An implementation of Webkit without a UI
+* http://phantomjs.org
+
+== Other Options
+* Jasmine http://pivotal.github.com/jasmine/
