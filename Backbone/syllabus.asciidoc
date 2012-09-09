@@ -14,18 +14,24 @@
 *** Map, Filter, Reduce etc
 *** Chaining operations
 ** Workshop: Working with YQL data
+** Templates
 
 * Backbone.js
 ** Introduction to Backbone.js
 ** Backbone Components
 *** Events
 *** Models
+**** Model Validation
 *** Collections
 *** Sync
-*** History & Router
+**** Custom Sync Options (XML, WebSockets, LocalStorage) 
+*** History & Router 
+
+** Workshop: Building a News Ticker 
 
 
 * Backbone Patterns
+** How to construct an application 
 
 * Integration with Backbone Marionette 
 

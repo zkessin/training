@@ -33,10 +33,11 @@ http://documentcloud.github.com/backbone/
 * All Backbone Objects can fire events
 * Events can be namespaced with a ":"
 * In addition to predefined events you can define your own
-........................................
-myModel.on("xyzzy", () -> ...)
-myModel.trigger("xyzzy")
-........................................
+
+++++++++++++++++++++++++++++++++++++++++
+<script src="https://gist.github.com/3684824.js"> </script>
+++++++++++++++++++++++++++++++++++++++++
+
 
 
 
@@ -95,6 +96,8 @@ sidebar.set({color: 'white'});
 sidebar.promptColor();
 
 ........................................
+
+== Model Validation 
 
 == Collections
 * A collection is an ordered group of Models
