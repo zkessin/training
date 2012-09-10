@@ -1,0 +1,21 @@
+= Backbone and Underscore 
+
+When JavaScript was first introduced into the browser with Netscape v
+2.0 in 1995 we used it for very simple tasks, such as validating form
+input or maybe doing something as complex as computing loan payments. 
+
+Now 17 years later we are building robust complex applications in
+JavaScript to run in the browser. Complex applications require a solid
+set of libraries and frameworks to build and maintain. 
+
+Backbone.js and Underscore.js were both created as part of the
+documentcloud project at the New York Times. Backbone Provides a solid
+data handling layer that can be used to handle any application.
+
+Backbone.js provides a number of objects to implement a MVC or MVVM
+architecture in the browser, including Models, Collections, Views,
+Browser History and more.  
+
+This class will introduce programmers to underscore and backbone as
+well as the Marionette package which provides a number of additional
+objects for binding Models and Collections to views.  
