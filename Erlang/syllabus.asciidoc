@@ -1,0 +1,28 @@
+= Erlang/OTP 6 Days
+
+* Day 1 - Sequential Erlang
+
+* Day 2 - Concurrency
+** about processes 
+** spawning processes
+** Links and Monitors 
+
+
+* Day 3 - Introducing the OTP Framework
+** OTP structures
+*** The gen_server
+*** Supervisors and Applications
+**** Supervision strategies 
+*** gen_fsm
+*** gen_event
+** Using OTP
+*** Setting up An Application
+*** Application Fall over
+
+* Day 4
+** Data Storage Ets, Dets, and Mnesia
+**
+
+* Day 5 - The Web
+
+* Day 5 - The web
