@@ -1,28 +1,56 @@
 = Erlang/OTP 6 Days
 
 * Day 1 - Sequential Erlang
+** Introducing Erlang
+** Basic Syntax
+** Erlang Data types 
+*** Bit Syntax
+** Functions & Modules
+** Pattern Matching and Guards 
+** Recursion 
+** Higher Order Functions 
+** Records
+** Handling Errors
+
 
 * Day 2 - Concurrency
-** about processes 
+** About Processes 
 ** spawning processes
-** Links and Monitors 
-
+** Sending and Receiving Messages
+** Links and Monitors
+** Tracking processes
+** Processes as an organizational model
+** Networking Erlang nodes
+** Let it Crash!  
+** Workshop
 
 * Day 3 - Introducing the OTP Framework
 ** OTP structures
 *** The gen_server
 *** Supervisors and Applications
 **** Supervision strategies 
-*** gen_fsm
-*** gen_event
+*** Finite state machines with gen_fsm
+*** Handling Events with gen_event
 ** Using OTP
 *** Setting up An Application
 *** Application Fall over
 
 * Day 4
 ** Data Storage Ets, Dets, and Mnesia
-**
+*** ETS and DETS -- Data storage for Erlang
+*** Mensia a Distributed soft real time Data store
+** Testing with EUnit
+** Tracing and Debugging 
 
 * Day 5 - The Web
+** Introducing the Erlang Web servers 
+*** Yaws
+**** Getting Started With Yaws
+**** AppMods -- Dynamic Content
+**** File Upload
+**** Web Sockets
+**** Streaming
+*** HTTP Client
+*** Working with web apis 
 
-* Day 5 - The web
+* Day 6 - Workshop
