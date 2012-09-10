@@ -23,6 +23,7 @@
 ** Networking Erlang nodes
 ** Let it Crash!  
 ** Workshop
+** Software updates 
 
 * Day 3 - Introducing the OTP Framework
 ** OTP structures
@@ -34,6 +35,7 @@
 ** Using OTP
 *** Setting up An Application
 *** Application Fall over
+*** Releases and Putting software into production
 
 * Day 4
 ** Data Storage Ets, Dets, and Mnesia
