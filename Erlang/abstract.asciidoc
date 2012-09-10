@@ -1,0 +1,27 @@
+= Introduction To Erlang
+
+In the 1980's Ericson had a problem. They need to program Telephone
+switches to be highly available, scalable and able to be upgraded
+without disrupting ongoing service. They evaluated every language they
+could find before eventually designing their own language... Erlang. 
+
+
+The requirements of telephone switches in the 1980's are very much
+like the requirements of web applications, hence the interest in
+Erlang for the modern application developer.
+
+
+Erlang is a programming language used to build massively scalable soft
+real-time systems with requirements on high availability. Some of its
+uses are in telecoms, banking, e-commerce, computer telephony and
+instant messaging. Erlang's runtime system has built-in support for
+concurrency, distribution and fault tolerance.
+
+OTP is set of Erlang libraries and design principles providing
+middle-ware to develop these systems. It includes its own distributed
+database, applications to interface towards other languages, debugging
+and release handling tools.
+
+This class will introduce Erlang and OTP to the student. At the end of
+the class students will have a solid understanding of how to structure
+an application in Erlang and the knowledge of how to build it.
