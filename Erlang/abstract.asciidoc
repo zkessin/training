@@ -1,0 +1,19 @@
+= Introduction To Erlang
+
+In the 1980's Ericson had a problem. They need to program Telephone
+switches to be highly available, scalable and able to be upgraded
+without disrupting ongoing service. They evaluated every language they
+could find before eventually designing their own language... Erlang. 
+
+The requirements of telephone switches in the 1980's are very much
+like the requirements of web applications in the current decade, we
+want our application services to run 24/7.
+
+Erlang and the OTP framework provide one of the most robust platforms
+for building applications that can scale. While Java nd C# are built
+around objects Erlang is built around processes. Unlike OS processes
+or threads Erlang process are very light weight around 1K each. 
+
+Erlang is the platform behind CouchDB, Riak, RabbitMQ, EJabberd 
+
+Talk about OTP
