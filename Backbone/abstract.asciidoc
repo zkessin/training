@@ -19,3 +19,5 @@ Browser History and more.
 This class will introduce programmers to underscore and backbone as
 well as the Marionette package which provides a number of additional
 objects for binding Models and Collections to views.  
+
+Class will be taught in English 
