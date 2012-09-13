@@ -14,7 +14,10 @@ build up an algebra of functions and operators which enable the
 developer to build a lot of power very quickly.
  
 
-NOTE: Class assumes some familiarity with JavaScript and web development
+NOTE: Class assumes some familiarity with JavaScript and web
+development. Prior experience with functional programming is useful
+but not necessary.
+  
 
 ****
 Class will be taught in English
