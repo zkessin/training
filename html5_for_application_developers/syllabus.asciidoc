@@ -2,9 +2,9 @@
 
 
 * Day 1
-** LocalStorage 
-
-** IndexedDB and WebSQL
+** In Browser Storage
+*** LocalStorage 
+*** IndexedDB and WebSQL
 
 * Day 2
 ** Files and Blobs
@@ -15,20 +15,16 @@
 
 * Day 3
 ** Going Offline
+*** Offline access to web resources 
+*** Data Storage
 
 ** Web Sockets
+*** Building Bidirectional communication communications into  
 * Day 4
 
 ** Web Workers
+*** Offloading work to a different process 
 
 ** History 
-*** Hashcahnge
+*** Hash change
 *** Connecting URLs to parts of an application
-
-*Day 5
-** Phonegap -- Building a cross platform web app
-*** The Phonegap build server 
-*** CrossPlatform Web
-*** Differences from the web browser enviroment
-*** Phonegap API's 
-
