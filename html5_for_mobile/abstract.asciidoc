@@ -1,0 +1,21 @@
+== HTML5 For Mobile
+
+Almost everyone has a smartphone in their pocket, or a tablet in their
+bag these days. Development for the mobile web will allow the
+developer to leverage much of their existing skills while providing
+enough new features to keep things interesting.
+
+With Phonegap it is possible to build cross platform native apps with
+full access to the features of the phone such as the camera, the
+accelerometer and GPS. 
+
+However the mobile platform also has some challenges that are not
+present on the conventional web, such as the fact that the mobile
+application developer must be concerned with battery usage when
+designing an application, which is not an issue when building
+applications for conventional computers. 
+
+
+****
+Class will be given in English
+****   

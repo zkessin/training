@@ -1,0 +1,11 @@
+= HTML5 For Mobile
+
+* Local Storage and offline
+
+*
+
+* Phonegap (2 Days)
+
+
+* Issues for Mobile Development
+** Battery Usage
