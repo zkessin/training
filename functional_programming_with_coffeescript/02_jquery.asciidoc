@@ -1,0 +1,1 @@
+= JQuery as a functional library

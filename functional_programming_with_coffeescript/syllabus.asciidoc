@@ -1,0 +1,29 @@
+= Functional Programming With CoffeeScript and jQuery
+
+
+* CoffeeScript
+** An introduction to the Features of CoffeScript
+** Functions as an element of abstraction
+** CoffeeScript workshop
+
+* jQuery 
+** *$* the Capture operator
+** Manipulation
+** Chaining
+** Iteration
+** Creating elements
+
+* Underscore.js
+** The basics of functional programming
+** Working with lists and collections
+*** Map, Filter, Reduce etc
+*** Chaining operations
+** Workshop: Working with YQL data
+** Templates
+
+
+* Monads
+** The Maybe Monad
+** Monads as a general ideal
+** The Container Monad
+** The Parser Monad

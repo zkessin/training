@@ -1,0 +1,6 @@
+= Monads
+
+* The Maybe Monad
+* Monads as a general ideal
+* The Container Monad
+* The Parser Monad

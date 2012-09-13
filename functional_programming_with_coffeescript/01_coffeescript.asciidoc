@@ -1,0 +1,32 @@
+
+== CoffeeScript
+
+=== Zachary Kessin
+=== zkessin@gmail.com
+=== +972 54 234 3956
+=== twitter @zkessin
+
+== What is CoffeeScript
+*Coffeescript is a small language that compiles to Javascript*
+
+== Who is behind CoffeeScript
+* Created By Jeremy Ashkanaz
+* http://coffeescript.org
+
+
+
+== Why CoffeeScript?
+* Javascript has nice semantics
+* The syntax is poor
+* There are more than a few "Gotchas" hanging around
+
+== How does CoffeeScript Work?
+* Coffeescript is a compiler that compiles to Javascript
+* the coffeescript compiler can run anywhere Javascript can run
+** Node.js
+** Rhino
+** Browser
+
+== CoffeeScript Syntax
+* http://coffeescript.org
+
