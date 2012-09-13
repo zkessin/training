@@ -1,4 +1,4 @@
-= Functional Programming with CoffeeScript and JQuery and Underscore
+= Functional Programming with CoffeeScript and JQuery and Underscore (2 days)
 
 When Brendan Eich created the language that we now call JavaScript he
 based it on two other languages Scheme and Smalltalk. From Scheme
