@@ -1,0 +1,24 @@
+= HTML5 for Application Developers 
+
+
+* LocalStorage 
+
+* IndexedDB and WebSQL
+
+* Files and Blobs
+** File Access 
+** Drag and Drop
+** Local File Access
+** Filesystem access
+
+* Going Offline
+
+* Web Sockets
+
+* Web Workers
+
+* History 
+** Hashcahnge
+** 
+
+* Phonegap 
