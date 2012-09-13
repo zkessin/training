@@ -1,24 +1,34 @@
 = HTML5 for Application Developers 
 
 
-* LocalStorage 
+* Day 1
+** LocalStorage 
 
-* IndexedDB and WebSQL
+** IndexedDB and WebSQL
 
-* Files and Blobs
-** File Access 
-** Drag and Drop
-** Local File Access
-** Filesystem access
+* Day 2
+** Files and Blobs
+*** File Access 
+*** Drag and Drop
+*** Local File Access
+*** Filesystem access
 
-* Going Offline
+* Day 3
+** Going Offline
 
-* Web Sockets
+** Web Sockets
+* Day 4
 
-* Web Workers
+** Web Workers
 
-* History 
-** Hashcahnge
-** 
+** History 
+*** Hashcahnge
+*** Connecting URLs to parts of an application
 
-* Phonegap 
+*Day 5
+** Phonegap -- Building a cross platform web app
+*** The Phonegap build server 
+*** CrossPlatform Web
+*** Differences from the web browser enviroment
+*** Phonegap API's 
+
