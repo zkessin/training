@@ -2,16 +2,17 @@
 
 
 * CoffeeScript
-** An introduction to the Features of CoffeScript
+** An introduction to the features of CoffeScript
 ** Functions as an element of abstraction
 ** CoffeeScript workshop
 
-* jQuery 
+* jQuery - A functional approach to the DOM
 ** *$* the Capture operator
 ** Manipulation
 ** Chaining
 ** Iteration
 ** Creating elements
+** Workshop
 
 * Underscore.js
 ** The basics of functional programming
@@ -27,3 +28,4 @@
 ** Monads as a general ideal
 ** The Container Monad
 ** The Parser Monad
+** Workshop
