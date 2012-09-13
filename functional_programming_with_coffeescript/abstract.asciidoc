@@ -1,0 +1,21 @@
+= Functional Programming with CoffeeScript and JQuery and Underscore
+
+When Brendan Eich created the language that we now call JavaScript he
+based it on two other languages Scheme and Smalltalk. From Scheme
+JavaScript inherits first class functions, and it is no surprise that
+JavaScript can act a very nice functional language.
+
+When you add CoffeeScript, jQuery and underscore.js to the mix it
+becomes even more powerful to use functional abstractions to build
+programs in the browser environments. 
+
+By chaining a number of small simple operations it is possible to
+build up an algebra of functions and operators which enable the
+developer to build a lot of power very quickly.
+ 
+
+NOTE: Class assumes some familiarity with JavaScript and web development
+
+****
+Class will be taught in English
+****
