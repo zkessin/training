@@ -1,7 +1,8 @@
 
-== Underscore.js
+= Underscore.js
 
-* Zachary Kessin
+== Zachary Kessin
+
 * zkessin@gmail.com
 * +972 54 234 3956
 * twitter @zkessin
@@ -28,32 +29,28 @@ General list functions
 * Takes a list and a function returns a new list
 
 ++++++++++++++++++++++++++++++++++++++++
-<script src="https://gist.github.com/3684835.js"> </script>
+<script src="https://gist.github.com/3684835.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
 
-== filter
+== Filter
 * Takes a list and returns a subset
 ++++++++++++++++++++++++++++++++++++++++
-<script src="https://gist.github.com/3684835.js"> </script>
+<script src="https://gist.github.com/3720812.js"> </script>
+
 ++++++++++++++++++++++++++++++++++++++++
-........................................
+
 
 == any() and all()
 * any(): true if at least 1 item passes
-* all(): true if *all* items pass)
-........................................
-_.any([1,2,3,4], function (x) {return x % 2 === 0;}) => true
-_.all([1,2,3,4], function (x) {return x % 2 === 0;}) => false
-........................................
+* all(): true if *all* items pass
+
+
+++++++++++++++++++++++++++++++++++++++++
+<script src="https://gist.github.com/3720857.js"></script>
+++++++++++++++++++++++++++++++++++++++++
 
 == Chaining
-* When you want to perform a bunch of operations
-........................................
-_.chain([1,2,3,4,5,6,7, 8])
-	.filter((x)	->  x > 3)
-	.map((x)	->  x * x)
-	.map((x)        ->  x + 1)
-	.value()  => [17, 26, 37, 50, 65]
-........................................
-
-
+.When you want to perform a bunch of operations
+++++++++++++++++++++++++++++++++++++++++
+<script src="https://gist.github.com/3720694.js"></script>
+++++++++++++++++++++++++++++++++++++++++
