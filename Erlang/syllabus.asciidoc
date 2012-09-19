@@ -42,6 +42,7 @@
 *** ETS and DETS -- Data storage for Erlang
 *** Mensia a Distributed soft real time Data store
 ** Testing with EUnit
+** Building with Rebar and doing CI
 ** Tracing and Debugging 
 
 * Day 5 - The Web
