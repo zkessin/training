@@ -1,4 +1,4 @@
-= Functional Programming With CoffeeScript and jQuery
+= Functional Programming With CoffeeScript, jQuery and Underscore.js
 
 
 * CoffeeScript
