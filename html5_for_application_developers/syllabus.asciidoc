@@ -20,8 +20,8 @@
 
 ** Web Sockets
 *** Building Bidirectional communication communications into  
-* Day 4
 
+* Day 4
 ** Web Workers
 *** Offloading work to a different process 
 

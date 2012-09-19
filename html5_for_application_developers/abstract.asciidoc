@@ -10,9 +10,6 @@ Javascript and CSS.
 We will look at the elements of the modern web including LocalStroage,
 Filesystem access, WebSockets, WebWorkers and so on. 
 
-In addition this class will feature a day on phonegap showing how to
-build cross platform applications based on web technologies. 
-
 ****
 Class will be taught in English
 ****
