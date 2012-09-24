@@ -6,22 +6,25 @@
 *** LocalStorage 
 *** IndexedDB and WebSQL
 
+** Going Offline
+*** Offline access to web resources 
+*** Data Storage
+
+
+
 * Day 2
+
+** Web Sockets
+*** Building Bidirectional communication communications into  
+
 ** Files and Blobs
 *** File Access 
 *** Drag and Drop
 *** Local File Access
 *** Filesystem access
 
+
 * Day 3
-** Going Offline
-*** Offline access to web resources 
-*** Data Storage
-
-** Web Sockets
-*** Building Bidirectional communication communications into  
-
-* Day 4
 ** Web Workers
 *** Offloading work to a different process 
 
