@@ -1,0 +1,24 @@
+= Collaborations with Git and Github
+
+* Day 1 - GIT
+** Why Git is not like SVN
+** Git from the command line
+** Git on the Mac and Windows
+** Using Git with Eclipse
+** Creating a repository
+** Adding, Removing and Committing files
+** Git History
+** Branches
+** Other git tools, (blame, diff)
+** Push, pull and fetch
+** The pull request
+
+
+* Day 2 - Github
+** What is github
+** Using Github for collaboration
+** Network graph
+** Issue Tracker
+** Workflows
+
+
