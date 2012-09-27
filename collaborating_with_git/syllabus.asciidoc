@@ -11,14 +11,21 @@
 ** Branches
 ** Other git tools, (blame, diff)
 ** Push, pull and fetch
-** The pull request
+
 
 
 * Day 2 - Github
 ** What is github
 ** Using Github for collaboration
+** The pull request
 ** Network graph
 ** Issue Tracker
-** Workflows
+** Continuous Integration with Travis-CI 
+** Work flows
+*** 3 Guys with Laptops
+*** Github's internal Work flow
+*** Linux Kernel Team
+*** Open Source Project
+
 
 
