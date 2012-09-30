@@ -7,6 +7,10 @@ include::about_zach.asciidoc[]
 Classes can be taught on demand in person or online. I normally teach
 in and around Tel Aviv but can travel as needed. 
 
+In addition to these classes I can also teach classes on introduction
+to Javascript and the browser, JQuery, Test Driven Development in
+Javascript and more. email for information.
+
 include::Backbone/abstract.asciidoc[]
 link:Backbone/syllabus.html[Backbone Class Syllabus]
 
