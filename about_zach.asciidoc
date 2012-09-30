@@ -1,5 +1,4 @@
 
-== Zachary Kessin
 
 Zachary Kessin has been developing applications on the World Wide Web
 since around 1993. Over the years he has worked in Perl, PHP, Scheme, 
@@ -10,6 +9,12 @@ Erlang in the server.
 Zachary Is the author of "Building Web Applications with Erlang"
 (2012) and "Programming HTML5 Applications" (2011) Both of which are
 published by O'Reilly. Currently he is at work on a new writing
-project based around GIT and Mercurial. 
+project based around how to build collaborations with git and github.  
  
-You can follow Zachary on twitter @zkessin
+You can follow Zachary on twitter link:http://twitter.com/zkessin[@zkessin]
+
+To book a class please email zkessin@gmail.com or call +972 54 234
+3956. Classes can be customized and combined as required.
+
+image:img/building_web_applications_with_erlang.jpeg[]
+image:img/programming_html5_applications.jpeg[]

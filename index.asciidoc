@@ -1,7 +1,11 @@
-==  Zachary Kessin's Teaching Classes
+=  Zachary Kessin's Training Classes
 
 
 include::about_zach.asciidoc[]
+
+== Availability  
+Classes can be taught on demand in person or online. I normally teach
+in and around Tel Aviv but can travel as needed. 
 
 include::Backbone/abstract.asciidoc[]
 link:Backbone/syllabus.html[Backbone Class Syllabus]

@@ -17,5 +17,5 @@ class will show the various major features of github as they relate to
 how people can collaborate on different projects. 
  
 ****
-NOTE: This class will be taught in English
+Class will be taught in English
 ****
