@@ -1,0 +1,17 @@
+==  Zachary Kessin's Teaching Classes
+
+
+include::about_zach.asciidoc[]
+
+include::Backbone/abstract.asciidoc[]
+link:Backbone/syllabus.html[Backbone Class Syllabus]
+
+include::html5_for_application_developers/abstract.asciidoc[]
+link:html5_for_application_developers/syllabus.html[HTML5 Class Syllabus]
+
+include::functional_programming_with_coffeescript/abstract.asciidoc[]
+link:functional_programming_with_coffeescript/syllabus.html[Class Syllabus]
+
+include::collaborating_with_git/abstract.asciidoc[]
+link:functional_programming_with_coffeescript/syllabus.html[Class Syllabus]
+
