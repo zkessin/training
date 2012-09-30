@@ -1,4 +1,4 @@
-= Building Collaborations with Git and Github 
+== Building Collaborations with Git and Github 
 
 Software like so many other things is about collaboration, and good
 collaboration needs good tools. In fact Joel Spolsky in his famous
@@ -16,5 +16,6 @@ In addition we will focus on github as a tool for collaborations. The
 class will show the various major features of github as they relate to
 how people can collaborate on different projects. 
  
-
+****
 NOTE: This class will be taught in English
+****

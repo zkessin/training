@@ -1,4 +1,4 @@
-= HTML5 For Application Developers (3 Days)
+== HTML5 For Application Developers (3 Days)
 
 The modern web is dynamic and amazing. As web developers we can build
 applications in a browser or on a smartphone that only a few short

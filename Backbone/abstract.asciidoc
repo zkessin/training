@@ -1,4 +1,4 @@
-= Backbone and Underscore 
+== Backbone and Underscore 
 
 When JavaScript was first introduced into the browser with Netscape v
 2.0 in 1995 we used it for very simple tasks, such as validating form
@@ -20,4 +20,6 @@ This class will introduce programmers to underscore and backbone as
 well as the Marionette package which provides a number of additional
 objects for binding Models and Collections to views.  
 
+****
 Class will be taught in English 
+****
