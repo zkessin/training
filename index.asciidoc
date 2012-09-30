@@ -17,5 +17,5 @@ include::functional_programming_with_coffeescript/abstract.asciidoc[]
 link:functional_programming_with_coffeescript/syllabus.html[Class Syllabus]
 
 include::collaborating_with_git/abstract.asciidoc[]
-link:functional_programming_with_coffeescript/syllabus.html[Class Syllabus]
+link:collaborating_with_git/syllabus.html[Class Syllabus]
 
