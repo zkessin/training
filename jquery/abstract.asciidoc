@@ -9,3 +9,18 @@ In addition the DOM API is inconsistent and painful. In fact every
 method in the DOM has a major but in at least one version of a major
 browser. 
 
+Thankfully John Resig created jQuery a well tested multi browser
+framework that provides a very nice functional abstraction layer on
+top of the DOM and other browser APIs.
+
+This class will aim to take someone who has never used jQuery before
+and enable show them how to select elements from the page, manipulate
+those elements, add and remove elements from the page and more. In
+addition jQuery's interfaces for performing Ajax operations will be
+covered along with jQuery's plugin interface. 
+
+
+****
+Class will be taught in English
+****
+
