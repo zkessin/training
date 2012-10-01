@@ -1,3 +1,11 @@
 ==  jQuery Novice to Master
 
-If you are working in the client and you 
+Building in Browser applications can be a nightmare, "You are in a
+maze of twisty little browsers, none alike". Trying to figure out how
+to do something so that it works correctly on Chrome, Firefox and
+Internet Explorer can be an exercise in frustration.
+
+In addition the DOM API is inconsistent and painful. In fact every
+method in the DOM has a major but in at least one version of a major
+browser. 
+
