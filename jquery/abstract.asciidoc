@@ -1,0 +1,3 @@
+==  jQuery Novice to Master
+
+If you are working in the client and you 
