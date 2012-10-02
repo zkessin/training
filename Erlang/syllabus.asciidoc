@@ -11,8 +11,6 @@
 ** Higher Order Functions 
 ** Records
 ** Handling Errors
-
-
 * Day 2 - Concurrency
 ** About Processes 
 ** spawning processes
@@ -24,7 +22,6 @@
 ** Let it Crash!  
 ** Workshop
 ** Software updates 
-
 * Day 3 - Introducing the OTP Framework
 ** OTP structures
 *** The gen_server
@@ -36,7 +33,6 @@
 *** Setting up An Application
 *** Application Fall over
 *** Releases and Putting software into production
-
 * Day 4
 ** Data Storage Ets, Dets, and Mnesia
 *** ETS and DETS -- Data storage for Erlang
@@ -44,7 +40,6 @@
 ** Testing with EUnit
 ** Building with Rebar and doing CI
 ** Tracing and Debugging 
-
 * Day 5 - The Web
 ** Introducing the Erlang Web servers 
 *** Yaws

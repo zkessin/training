@@ -11,9 +11,6 @@
 ** Branches
 ** Other git tools, (blame, diff)
 ** Push, pull and fetch
-
-
-
 * Day 2 - Github
 ** What is github
 ** Using Github for collaboration
