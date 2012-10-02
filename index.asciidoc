@@ -14,6 +14,9 @@ Javascript and more. email for information.
 include::Backbone/abstract.asciidoc[]
 link:Backbone/syllabus.html[Backbone Class Syllabus]
 
+include::jquery/abstract.asciidoc[]
+link:jquery/syllabus.html[Class Syllabus]
+
 include::html5_for_application_developers/abstract.asciidoc[]
 link:html5_for_application_developers/syllabus.html[HTML5 Class Syllabus]
 
