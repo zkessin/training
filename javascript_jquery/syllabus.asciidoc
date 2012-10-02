@@ -1,0 +1,19 @@
+= jQuery Novice to Master
+
+* Day 1 Introducing Javascript
+
+* Day 2 More Javascript
+
+* Day 3
+** What is jQuery
+** $ The capture Operator
+** Manipulating node sets
+** Creating New Nodes
+** Chaining Operators
+** Events and handlers
+
+
+* Day 4
+** jQuery Plugin Catalog
+** Building a jQuery plugin 
+** jQuery Touch and jQuery UI an overview
