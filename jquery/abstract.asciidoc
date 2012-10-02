@@ -1,3 +1,4 @@
+[[jquery]]
 ==  jQuery Novice to Master
 
 Building in Browser applications can be a nightmare, "You are in a
