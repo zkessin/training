@@ -1,8 +1,17 @@
 = jQuery Novice to Master
 
 * Day 1 Introducing Javascript
+** Syntax of Javascript
+** Functions
+** Objects
 
-* Day 2 More Javascript
+
+* Day 2 The browser
+** The browser as platform 
+** The DOM 
+** Browser Events
+** Ajax
+
 
 * Day 3
 ** What is jQuery
