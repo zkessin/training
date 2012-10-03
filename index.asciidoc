@@ -20,6 +20,9 @@ link:Backbone/syllabus.html[Class Syllabus]
 include::jquery/abstract.asciidoc[]
 link:jquery/syllabus.html[Class Syllabus]
 
+include::Erlang/abstract.asciidoc[]
+link:Erlang/syllabus.html[Class Syllabus]
+
 include::html5_for_application_developers/abstract.asciidoc[]
 link:html5_for_application_developers/syllabus.html[Class Syllabus]
 

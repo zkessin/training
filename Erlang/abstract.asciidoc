@@ -1,4 +1,4 @@
-= Introduction To Erlang
+== Introduction To Erlang
 
 In the 1980's Ericson had a problem. They need to program Telephone
 switches to be highly available, scalable and able to be upgraded
