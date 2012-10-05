@@ -1,6 +1,7 @@
 = Testing in Javascript with QUnit
 
 include::../slide_front_matter.asciidoc[]
+
 == Options for Testing
 
 * JSUnit (Defunct)
@@ -52,7 +53,10 @@ include::../slide_front_matter.asciidoc[]
 * Use for async testing and the like 
 * expect(Number)
 
-https://gist.github.com/3838533
++++++
+<script src="https://gist.github.com/3838533.js"></script>
++++++
+
 
 	
 == Testing Ajax 
@@ -69,25 +73,14 @@ https://github.com/appendto/jquery-mockjax
 * Solution: Use Mock Templates
 
 == Mock Templates
-........................................
-<div>
-    <h1 class='header'><%= title =%></h1>
-    <div> ...
-</div>
-........................................
++++++
+<script src="https://gist.github.com/3838579.js"> </script>
++++++
 
-........................................
-<h1><%= title %></h1>
-........................................
 
 == Strategies for Testing
-* Isolate AJAX with Backbone 
+* Isolate AJAX with Backbone (Or Similar)
 * Isolate Dom interaction 
 * Pure functions can be tested with Node.js or Rhino
 
-== Headless browsers
-* An implementation of Webkit without a UI
-* http://phantomjs.org
 
-== Other Options
-* Jasmine http://pivotal.github.com/jasmine/
