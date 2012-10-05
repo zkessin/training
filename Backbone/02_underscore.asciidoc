@@ -1,25 +1,27 @@
 
 = Underscore.js
 
-== Zachary Kessin
+include::../slide_front_matter.asciidoc[]
 
-* zkessin@gmail.com
-* +972 54 234 3956
-* twitter @zkessin
 
 == Underscore.js
 * Created by Jeremy Ashkanaz at the New York Times
 * Spun off from Document Cloud Project
 * Key dependency of backbone.js
-........................................
-http://underscorejs.org/
-........................................
+* Current Version 1.4.1
+
+link:http://underscorejs.org/[]
+
+
 
 == Underscore.js the basics:
 
-=== Underscore.js provides a consistent functional interface to lists and objects
-General list functions
+* Consistent Functional Interface
+* Pure functions only 
+* Allows for Chaining of operations 
 
+
+== General list functions
 * map()
 * filter() /reject()
 * reduce()
@@ -27,7 +29,6 @@ General list functions
 
 == Map
 * Takes a list and a function returns a new list
-
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3684835.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
@@ -36,12 +37,11 @@ General list functions
 * Takes a list and returns a subset
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3720812.js"> </script>
-
 ++++++++++++++++++++++++++++++++++++++++
 
 
 == any() and all()
-* any(): true if at least 1 item passes
+* any(): true if *at least* 1 item passes
 * all(): true if *all* items pass
 
 
@@ -54,3 +54,18 @@ General list functions
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3720694.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
+
+== Developing an Function Library
+* Use pure (or mostly pure) functions
+* Practice TDD 
+* Namespace 
+
+TODO: Examples
+
+== Functions as Algebra 
+* Use simple functions
+* 
+
+== Underscore Mixin Catalog
+
+link:https://github.com/documentcloud/underscore/wiki/Mixin-Catalog[]
