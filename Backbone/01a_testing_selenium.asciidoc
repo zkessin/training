@@ -1,0 +1,38 @@
+= Testing in Javascript with QUnit
+
+include::../slide_front_matter.asciidoc[]
+
+== Options for Testing
+
+* JSUnit (Defunct)
+* *Selenium*
+* QUnit
+* Jasmine
+
+
+== Selenium
+http://seleniumhq.org
+
+* Selenium Drives the browser
+* Selenium runs your UI 
+* Selenium is slow
+* Selenium should be used for integration testing and the like
+* Selenium can be driven from a programming language (PHP, Java, Node.js, Ruby etc)
+
+== Using Selenium for Test Automation
+* Use to launch a browser for other tests
+* Cross browser (run on IE, Firefox, Chrome etc)
+* There are cloud services for this
+
+== Use Selenium as a Macro recorder
+* Selenium IDE For firefox 
+* Can load a page, click here, fill in some elements etc
+
+== Constructing a test
+* Selenium can address elements By ID, XPATH, CSS Selector etc
+* command element (params) 
+
+== Other uses for Selenium
+* Programmable interface for a browser
+* Screen Scraping 
+
