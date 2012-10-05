@@ -28,6 +28,15 @@ http://seleniumhq.org
 * Selenium IDE For firefox 
 * Can load a page, click here, fill in some elements etc
 
+== Selenium IDE
+image::img/selenium_example.png[Selenium IDE Example]
+
+== Test Script
++++++
+<script src="https://gist.github.com/3838697.js"></script>
++++++
+
+
 == Constructing a test
 * Selenium can address elements By ID, XPATH, CSS Selector etc
 * command element (params) 
