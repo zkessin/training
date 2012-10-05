@@ -1,0 +1,22 @@
+== Zachary Kessin
+
+* Zachary Kessin
+* zkessin@gmail.com
+* 054 234 3956
+* twitter @zkessin
+
+image:../img/building_web_applications_with_erlang.jpeg[]
+image:../img/programming_html5_applications.jpeg[]
+
+== Upcoming Classes
+
+* link:http://coffeescriptcourse.blogspot.co.il/[Functional
+  Programming With CoffeeScript] 21/28 October
+* link:http://html5course.blogspot.co.il/2012/09/about-zachary-kessin-html5-expert.html[Building
+  HTML5 Applications] 24, 31 October, 7 November
+* link:http://erlangcourse.blogspot.co.il/[Erlang] 14,21,28 Nov 5, 12,
+  19 December 
+* Collaborations with Git and Github 19,26 November,  
+* Javascript and JQuery for Beginners 25 November, 2, 9, 16 December
+* link:http://backbonecourse.blogspot.co.il/[Backbone.js] 17, 24, 31
+  December 
