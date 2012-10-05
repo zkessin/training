@@ -1,0 +1,37 @@
+= Using Headless Browsers for In browser testing
+
+include::../slide_front_matter.asciidoc[]
+
+== Headless browsers
+* An implementation of Webkit without a UI
+* http://phantomjs.org
+
+
+== Uses For Phantom JS
+* Running Tests
+* Screen Scraping
+* Rendering SVG and PDF
+
+== Running Tests With QUnit 
+......
+phantomjs run-qunit.js http://localhost:8080/test.html
+......
+
+.....
+'waitFor()' finished in 407ms.
+Tests completed in 222 milliseconds.
+80 tests of 95 passed, 15 failed.
+......
+
+== Running tests with Jasmine
+
+
+== Running Tests Automaticly in Emacs 
+
+++++++++++
+<script src="https://gist.github.com/3635710.js"> </script>
+++++++++++
+
+== Running tests with Travis-CI
+
+link:http://about.travis-ci.org/docs/user/gui-and-headless-browsers/[]
