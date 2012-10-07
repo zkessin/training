@@ -1,4 +1,4 @@
-== HTML5 For Mobile
+== HTML5 For Mobile with Phonegap
 
 Almost everyone has a smartphone in their pocket, or a tablet in their
 bag these days. Development for the mobile web will allow the
@@ -15,7 +15,16 @@ application developer must be concerned with battery usage when
 designing an application, which is not an issue when building
 applications for conventional computers. 
 
+This class will focus on the various mobile interfaces of Phongap as
+well as how to use HTML5 most effectively.
+
+Students should plan to bring a Tablet (IPad or Android). Students
+wishing to develop for the IPad must have a mac.
+
+NOTE: Knowledge of JavaScript, Web Development and basic use of Github
+are required for this class.    
 
 ****
 Class will be given in English
 ****   
+ 
