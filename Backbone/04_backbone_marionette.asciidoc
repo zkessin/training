@@ -1,0 +1,15 @@
+
+= Backbone Marionette
+
+include::../slide_front_matter.asciidoc[] 
+
+== Why Marionette
+
+* Backbone is very flexible
+* Many ways to solve some problems
+* Often simple patterns not implemented by default
+ 
+=== Lets add another layer to handle this!
+
+== MARIONETTE 
+
