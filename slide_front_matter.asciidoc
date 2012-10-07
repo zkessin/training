@@ -20,3 +20,4 @@ image:../img/programming_html5_applications.jpeg[]
 * Javascript and JQuery for Beginners 25 November, 2, 9, 16 December
 * link:http://backbonecourse.blogspot.co.il/[Backbone.js] 17, 24, 31
   December 
+* HTML5 For Mobile - Building for IPad with Phonegap - TBA 
