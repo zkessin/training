@@ -55,6 +55,7 @@ link:http://underscorejs.org/[]
 <script src="https://gist.github.com/3720694.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
 
+
 == Developing an Function Library
 * Use pure (or mostly pure) functions
 * Practice TDD 
@@ -64,8 +65,20 @@ TODO: Examples
 
 == Functions as Algebra 
 * Use simple functions
-* 
+* focus on the what not the how
+
+
+== Chaining (2)
+.When you want to perform a bunch of operations
+++++++++++++++++++++++++++++++++++++++++
+<script src="https://gist.github.com/3720694.js"></script>
+++++++++++++++++++++++++++++++++++++++++
+
 
 == Underscore Mixin Catalog
 
 link:https://github.com/documentcloud/underscore/wiki/Mixin-Catalog[]
+
+
+== Workshop
+TODO: Design Workshop
