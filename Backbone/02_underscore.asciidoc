@@ -26,6 +26,7 @@ link:http://underscorejs.org/[]
 * filter() /reject()
 * reduce()
 * pluck()
+* groupBy
 
 == Map
 * Takes a list and a function returns a new list
@@ -39,6 +40,9 @@ link:http://underscorejs.org/[]
 <script src="https://gist.github.com/3720812.js"> </script>
 ++++++++++++++++++++++++++++++++++++++++
 
+== groupBy() 
+* Splits a collection into groups
+
 
 == any() and all()
 * any(): true if *at least* 1 item passes
@@ -48,6 +52,22 @@ link:http://underscorejs.org/[]
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3720857.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
+
+== Underscore String Library
+* Functions for working with Strings
+* Mixin for Underscore 
+link:http://epeli.github.com/underscore.string/[]
+
+== Underscore.string highlights
+
+* _.prune() - Prune string do a fixed length with ...
+* _.join() - Joins string together with a glue string
+* _.isBlank("String") - True if sting matches /^\w*$/ 
+* _.startsWith(), _.endsWidth() 
+
+== Underscore.string example
+
+TODO Example 
 
 == Chaining
 .When you want to perform a bunch of operations
@@ -73,6 +93,7 @@ TODO: Examples
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3720694.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
+
 
 
 == Underscore Mixin Catalog
