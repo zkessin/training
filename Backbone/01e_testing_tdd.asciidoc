@@ -4,7 +4,13 @@ include::../slide_front_matter.asciidoc[]
 
 
 == Red Green Re-factor
+. Write test first
+. Write simplest possible code to make test pass
+. Improve The code 
+. Repeat  
+
 
 == Workshop
+
 
 
