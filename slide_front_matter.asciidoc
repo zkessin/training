@@ -10,8 +10,6 @@ image:../img/programming_html5_applications.jpeg[]
 
 == Upcoming Classes
 
-* link:http://coffeescriptcourse.blogspot.co.il/[Functional
-  Programming With CoffeeScript] 21/28 October
 * link:http://html5course.blogspot.co.il/2012/09/about-zachary-kessin-html5-expert.html[Building
   HTML5 Applications] 24, 31 October, 7 November
 * link:http://erlangcourse.blogspot.co.il/[Erlang] 14,21,28 Nov 5, 12,
@@ -21,3 +19,7 @@ image:../img/programming_html5_applications.jpeg[]
 * link:http://backbonecourse.blogspot.co.il/[Backbone.js] 17, 24, 31
   December 
 * HTML5 For Mobile - Building for IPad with Phonegap - TBA 
+* link:http://coffeescriptcourse.blogspot.co.il/[Functional
+  Programming With CoffeeScript] TBA
+
+To Sign up Contact Elan Perach 054-788-0094
