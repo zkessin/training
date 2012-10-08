@@ -56,13 +56,14 @@ link:http://underscorejs.org/[]
 == Underscore String Library
 * Functions for working with Strings
 * Mixin for Underscore 
+
 link:http://epeli.github.com/underscore.string/[]
 
 == Underscore.string highlights
 
 * _.prune() - Prune string do a fixed length with ...
 * _.join() - Joins string together with a glue string
-* _.isBlank("String") - True if sting matches /^\w*$/ 
+* _.isBlank("String") - True if sting matches /^\s*$/ 
 * _.startsWith(), _.endsWidth() 
 
 == Underscore.string example
