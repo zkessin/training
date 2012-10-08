@@ -3878,12 +3878,6 @@ twitter @zkessin
 <ul class="">
 <li>
 <span>
-<a href="http://coffeescriptcourse.blogspot.co.il/">Functional
-  Programming With CoffeeScript</a> 21/28 October
-</span>
-</li>
-<li>
-<span>
 <a href="http://html5course.blogspot.co.il/2012/09/about-zachary-kessin-html5-expert.html">Building
   HTML5 Applications</a> 24, 31 October, 7 November
 </span>
@@ -3915,7 +3909,14 @@ Javascript and JQuery for Beginners 25 November, 2, 9, 16 December
 HTML5 For Mobile - Building for IPad with Phonegap - TBA
 </span>
 </li>
+<li>
+<span>
+<a href="http://coffeescriptcourse.blogspot.co.il/">Functional
+  Programming With CoffeeScript</a> TBA
+</span>
+</li>
 </ul>
+<div class="paragraph"><p>To Sign up Contact Elan Perach 054-788-0094</p></div>
 </div>
 </div>
 <div class="sect1 slide">
@@ -3939,7 +3940,7 @@ Key dependency of backbone.js
 </li>
 <li>
 <span>
-Current Version 1.4.1
+Current Version 1.4.2
 </span>
 </li>
 </ul>
@@ -3957,12 +3958,22 @@ Consistent Functional Interface
 </li>
 <li>
 <span>
-Pure functions only
+Operations are pure functions
 </span>
 </li>
 <li>
 <span>
 Allows for Chaining of operations
+</span>
+</li>
+<li>
+<span>
+Easy to create Mixins
+</span>
+</li>
+<li>
+<span>
+Ports to Lua, PHP, Objective-C, Perl and Coldfusion
 </span>
 </li>
 </ul>
@@ -4036,6 +4047,7 @@ Splits a collection into groups
 </span>
 </li>
 </ul>
+<div class="paragraph"><p>Example: take a list of customers and split by country</p></div>
 </div>
 </div>
 <div class="sect1 slide">
@@ -4068,10 +4080,10 @@ Functions for working with Strings
 <li>
 <span>
 Mixin for Underscore
-<a href="http://epeli.github.com/underscore.string/">http://epeli.github.com/underscore.string/</a>
 </span>
 </li>
 </ul>
+<div class="paragraph"><p><a href="http://epeli.github.com/underscore.string/">http://epeli.github.com/underscore.string/</a></p></div>
 </div>
 </div>
 <div class="sect1 slide">
@@ -4090,7 +4102,7 @@ _.join() - Joins string together with a glue string
 </li>
 <li>
 <span>
-_.isBlank("String") - True if sting matches /^\w*$/
+_.isBlank("String") - True if sting matches /^\s*$/
 </span>
 </li>
 <li>
@@ -4119,6 +4131,11 @@ _.startsWith(), _.endsWidth()
 <ul class="">
 <li>
 <span>
+Keep functions Short (&lt; 5 lines each)
+</span>
+</li>
+<li>
+<span>
 Use pure (or mostly pure) functions
 </span>
 </li>
@@ -4129,11 +4146,21 @@ Practice TDD
 </li>
 <li>
 <span>
-Namespace
+Namespace functions
+</span>
+</li>
+<li>
+<span>
+Use Generators
 </span>
 </li>
 </ul>
-<div class="paragraph"><p>TODO: Examples</p></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_function_library_examples">Function Library Examples</h1>
+<div class="sectionbody">
+<script src="https://gist.github.com/3854111.js"></script>
 </div>
 </div>
 <div class="sect1 slide">

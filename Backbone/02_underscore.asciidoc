@@ -8,7 +8,7 @@ include::../slide_front_matter.asciidoc[]
 * Created by Jeremy Ashkanaz at the New York Times
 * Spun off from Document Cloud Project
 * Key dependency of backbone.js
-* Current Version 1.4.1
+* Current Version 1.4.2
 
 link:http://underscorejs.org/[]
 
@@ -17,16 +17,18 @@ link:http://underscorejs.org/[]
 == Underscore.js the basics:
 
 * Consistent Functional Interface
-* Pure functions only 
-* Allows for Chaining of operations 
+* Operations are pure functions
+* Allows for Chaining of operations
+* Works in the browser and in node.js
+* Easy to create Mixins
+* Ports to Lua, PHP, Objective-C, Perl and Coldfusion
 
 
-== General list functions
-* map()
-* filter() /reject()
-* reduce()
-* pluck()
-* groupBy
+== General List/Collection  functions
+
+* Functions take a list or collection 
+* Function return a *new* list 
+
 
 == Map
 * Takes a list and a function returns a new list
@@ -40,9 +42,10 @@ link:http://underscorejs.org/[]
 <script src="https://gist.github.com/3720812.js"> </script>
 ++++++++++++++++++++++++++++++++++++++++
 
-== groupBy() 
+== groupBy()
 * Splits a collection into groups
 
+Example: take a list of customers and split by country
 
 == any() and all()
 * any(): true if *at least* 1 item passes
@@ -55,7 +58,7 @@ link:http://underscorejs.org/[]
 
 == Underscore String Library
 * Functions for working with Strings
-* Mixin for Underscore 
+* Mixin for Underscore
 
 link:http://epeli.github.com/underscore.string/[]
 
@@ -63,12 +66,12 @@ link:http://epeli.github.com/underscore.string/[]
 
 * _.prune() - Prune string do a fixed length with ...
 * _.join() - Joins string together with a glue string
-* _.isBlank("String") - True if sting matches /^\s*$/ 
-* _.startsWith(), _.endsWidth() 
+* _.isBlank("String") - True if sting matches /^\s*$/
+* _.startsWith(), _.endsWidth()
 
 == Underscore.string example
 
-TODO Example 
+TODO Example
 
 == Chaining
 .When you want to perform a bunch of operations
@@ -78,13 +81,19 @@ TODO Example
 
 
 == Developing an Function Library
+* Keep functions Short (< 5 lines each)
 * Use pure (or mostly pure) functions
-* Practice TDD 
-* Namespace 
+* Practice TDD
+* Namespace functions
+* Use Generators
 
-TODO: Examples
+== Function Library Examples
+++++++++++++++++++++++++++++++++++++++++
+<script src="https://gist.github.com/3854111.js"></script>
+++++++++++++++++++++++++++++++++++++++++
 
-== Functions as Algebra 
+
+== Functions as Algebra
 * Use simple functions
 * focus on the what not the how
 
