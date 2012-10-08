@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Underscore.js</title>
+<title>Doing TDD in the Browser</title>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="generator" content="AsciiDoc 8.6.7" />
 <style type="text/css">
@@ -3837,7 +3837,7 @@ setTimeout(w3c_slidy.hide_slides, 50);
 </head>
 <body class="article">
 <div id="header" class="slide">
-<h1>Underscore.js</h1>
+<h1>Doing TDD in the Browser</h1>
 </div>
 <div class="sect1 slide">
 <h1 id="_zachary_kessin">Zachary Kessin</h1>
@@ -3919,258 +3919,35 @@ HTML5 For Mobile - Building for IPad with Phonegap - TBA
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_underscore_js">Underscore.js</h1>
+<h1 id="_red_green_re_factor">Red Green Re-factor</h1>
 <div class="sectionbody">
-<ul class="">
+<ol class="arabic">
 <li>
 <span>
-Created by Jeremy Ashkanaz at the New York Times
+Write test first
 </span>
 </li>
 <li>
 <span>
-Spun off from Document Cloud Project
+Write simplest possible code to make test pass
 </span>
 </li>
 <li>
 <span>
-Key dependency of backbone.js
+Improve The code
 </span>
 </li>
 <li>
 <span>
-Current Version 1.4.1
+Repeat
 </span>
 </li>
-</ul>
-<div class="paragraph"><p><a href="http://underscorejs.org/">http://underscorejs.org/</a></p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_js_the_basics">Underscore.js the basics:</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Consistent Functional Interface
-</span>
-</li>
-<li>
-<span>
-Pure functions only
-</span>
-</li>
-<li>
-<span>
-Allows for Chaining of operations
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_general_list_functions">General list functions</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-map()
-</span>
-</li>
-<li>
-<span>
-filter() /reject()
-</span>
-</li>
-<li>
-<span>
-reduce()
-</span>
-</li>
-<li>
-<span>
-pluck()
-</span>
-</li>
-<li>
-<span>
-groupBy
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_map">Map</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Takes a list and a function returns a new list
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3684835.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_filter">Filter</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Takes a list and returns a subset
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3720812.js"> </script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_groupby">groupBy()</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Splits a collection into groups
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_any_and_all">any() and all()</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-any(): true if <strong>at least</strong> 1 item passes
-</span>
-</li>
-<li>
-<span>
-all(): true if <strong>all</strong> items pass
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3720857.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_string_library">Underscore String Library</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Functions for working with Strings
-</span>
-</li>
-<li>
-<span>
-Mixin for Underscore
-<a href="http://epeli.github.com/underscore.string/">http://epeli.github.com/underscore.string/</a>
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_string_highlights">Underscore.string highlights</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-_.prune() - Prune string do a fixed length with &#8230;
-</span>
-</li>
-<li>
-<span>
-_.join() - Joins string together with a glue string
-</span>
-</li>
-<li>
-<span>
-_.isBlank("String") - True if sting matches /^\w*$/
-</span>
-</li>
-<li>
-<span>
-_.startsWith(), _.endsWidth()
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_string_example">Underscore.string example</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>TODO Example</p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_chaining">Chaining</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3720694.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_developing_an_function_library">Developing an Function Library</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Use pure (or mostly pure) functions
-</span>
-</li>
-<li>
-<span>
-Practice TDD
-</span>
-</li>
-<li>
-<span>
-Namespace
-</span>
-</li>
-</ul>
-<div class="paragraph"><p>TODO: Examples</p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_functions_as_algebra">Functions as Algebra</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Use simple functions
-</span>
-</li>
-<li>
-<span>
-focus on the what not the how
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_chaining_2">Chaining (2)</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3720694.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_mixin_catalog">Underscore Mixin Catalog</h1>
-<div class="sectionbody">
-<div class="paragraph"><p><a href="https://github.com/documentcloud/underscore/wiki/Mixin-Catalog">https://github.com/documentcloud/underscore/wiki/Mixin-Catalog</a></p></div>
+</ol>
 </div>
 </div>
 <div class="sect1 slide">
 <h1 id="_workshop">Workshop</h1>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_working_with_data_from_yql">Working with Data from YQL</h3>
-</div>
 </div>
 </div>
 </body>
