@@ -13,3 +13,5 @@ include::../slide_front_matter.asciidoc[]
 
 == MARIONETTE 
 
+* Provides common mechanisms for many operations
+
