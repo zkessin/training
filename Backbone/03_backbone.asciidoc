@@ -1,17 +1,15 @@
 
 == Backbone.js
 
-* Zachary Kessin
-* zkessin@gmail.com
-* +972 54 234 3956
-* twitter @zkessin
+include::../slide_front_matter.asciidoc[]
 
 == backbone.js
 * Created by Jeremy Ashkanaz at the New York Times
 * Spun off from Document Cloud Project
-........................................
-http://documentcloud.github.com/backbone/
-........................................
+* Current version 0.9.2 
+
+link:http://documentcloud.github.com/backbone/[]
+
 
 == Backbone Philosophy
 * Backbone is lightweight
@@ -37,8 +35,6 @@ http://documentcloud.github.com/backbone/
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3684824.js"> </script>
 ++++++++++++++++++++++++++++++++++++++++
-
-
 
 
 == Views
@@ -70,7 +66,7 @@ var DocumentView = Backbone.View.extend(
     "click .show_notes"       : "toggleNotes",
     "click .title .lock"      : "editAccessLevel",
     "mouseover .title .date"  : "showTooltip"
-  ...)
+  )
 ........................................
 
 == Models
