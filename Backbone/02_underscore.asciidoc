@@ -26,8 +26,8 @@ link:http://underscorejs.org/[]
 
 == General List/Collection  functions
 
-* Functions take a list or collection 
-* Function return a *new* list 
+* Functions take a list or collection
+* Functions return a *new* list or collection
 
 
 == Map
@@ -55,6 +55,15 @@ Example: take a list of customers and split by country
 ++++++++++++++++++++++++++++++++++++++++
 <script src="https://gist.github.com/3720857.js"></script>
 ++++++++++++++++++++++++++++++++++++++++
+== Collection functions
+* _.extend(Source, Extra*)
+* _.defaults(Source, Extras*)
+* _.clone(Source)
+
+
+
+== Templates
+TODO: Fill in templates
 
 == Underscore String Library
 * Functions for working with Strings
@@ -94,7 +103,7 @@ TODO Example
 
 
 == Functions as Algebra
-* Use simple functions
+* Use simple functions for operations (< 5 lines of code)
 * focus on the what not the how
 
 
@@ -114,3 +123,7 @@ link:https://github.com/documentcloud/underscore/wiki/Mixin-Catalog[]
 == Workshop
 
 === Working with Data from YQL
+
+* Query News stories
+* Group by source
+* Format with templates
