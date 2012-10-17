@@ -1,0 +1,16 @@
+= Backbone Class Outline
+==Day 1
+=== Morning
+
+<<01a_testing_selenium.html>>
+<<01b_testing_qunit.html>>
+<<01c_testing_jasmine.html>>
+<<01d_testing_phantomjs.html>>
+<<01e_testing_tdd.html>>
+=== Afternoon
+<<02_underscore.html>>
+
+== Day 2
+<<03_backbone.html>>
+
+== Day 3
