@@ -87,7 +87,11 @@ link:http://epeli.github.com/underscore.string/[]
 
 == Underscore.string example
 ......
-_("   epeli  ").chain().trim().capitalize().value()
+_("   epeli  ")
+      .chain()
+      .trim()
+      .capitalize()
+      .value()
 => "Epeli"
 ......
 
