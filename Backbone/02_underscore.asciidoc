@@ -127,3 +127,5 @@ link:https://github.com/documentcloud/underscore/wiki/Mixin-Catalog[]
 * Query News stories
 * Group by source
 * Format with templates
+
+TODO: SETUP
