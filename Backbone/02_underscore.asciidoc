@@ -61,9 +61,16 @@ Example: take a list of customers and split by country
 * _.clone(Source)
 
 
-
 == Templates
-TODO: Fill in templates
+* Basic Templating Engine 
+* use the +_.template()+ function to create
+** Options
+** <%= %> render resulting data into HTML
+** <% %> run code (use print to output data)
+** <%- %> HTML Escaped version
+++++++
+<script src="https://gist.github.com/3904355.js"> </script>
+++++++
 
 == Underscore String Library
 * Functions for working with Strings
@@ -79,8 +86,11 @@ link:http://epeli.github.com/underscore.string/[]
 * _.startsWith(), _.endsWidth()
 
 == Underscore.string example
+......
+_("   epeli  ").chain().trim().capitalize().value()
+=> "Epeli"
+......
 
-TODO Example
 
 == Chaining
 .When you want to perform a bunch of operations
