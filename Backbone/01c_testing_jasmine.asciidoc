@@ -2,6 +2,13 @@
 
 include::../slide_front_matter.asciidoc[]
 
+== Options for Testing
+
+* JSUnit (Defunct)
+* Selenium
+* QUnit
+* *Jasmine*
+
 == Jasmine 
 
 * From pivotal Labs
@@ -16,8 +23,7 @@ include::../slide_front_matter.asciidoc[]
 <script src="https://gist.github.com/3904139.js"></script>
 +++++
 
-== Matchers
-* toMatch(Regexp)
+== Matchers* toMatch(Regexp)
 * toBeDefined()
 * toBeUndefined()
 * toBeNull()
@@ -29,6 +35,12 @@ include::../slide_front_matter.asciidoc[]
 * toBeCloseTo(Value, Limit) (Value+/- Limit)
 * toThrow()
 
+== Custom Matchers
+* Use to create custom assertions
++++++
+<script src="https://gist.github.com/3904251.js"></script>
++++++
+
 == Setup and TearDown
 +++++
 <script src="https://gist.github.com/3904157.js"> </script>
@@ -36,15 +48,33 @@ include::../slide_front_matter.asciidoc[]
 
 == Spies 
 * Used by Jasmine to Mock functions
-
+* created with +spyOn(Object, MethodName)+
+* Matchers for Spies
+** toHaveBeenCalled()
+** toHaveBeenCalledWidth(Params)
 
 == Spies Call Through 
+* Call the Spy and the actual Function 
+
 
 == Spies  Return
+* set the Return Value of the Spy
+.....
+spyOn(foo, "Bar").andReturn(1234);
+.....
 
 == Spies Call Fake
+* Redirect the call to a supplied function
+.....
+spyOn(foo, "Bar").andCallFake(function () { /* .... */});
+.....
 
 == Mocking the Clock
+* Useful for setInterval and setTimeout
+* Enable you to move the clock forward by N ticks
+
+
+
 
 == Asynchronous Support
 
