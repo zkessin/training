@@ -74,8 +74,11 @@ spyOn(foo, "Bar").andCallFake(function () { /* .... */});
 * Enable you to move the clock forward by N ticks
 
 
-
-
 == Asynchronous Support
+* Use the Function runs / waitFor 
+* Ideally you should try to replace these with spies
 
-
+== Running your Tests
++++++
+<script src="https://gist.github.com/3904311.js"></script>
++++++
