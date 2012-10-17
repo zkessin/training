@@ -1,3 +1,51 @@
 = Testing With Jasmine
 
 include::../slide_front_matter.asciidoc[]
+
+== Jasmine 
+
+* From pivotal Labs
+* <<http://pivotal.github.com/jasmine/>>
+
+== Basic Test
+++++
+<script src="https://gist.github.com/3904130.js"></script>
++++++
+== Negative Test
++++++
+<script src="https://gist.github.com/3904139.js"></script>
++++++
+
+== Matchers
+* toMatch(Regexp)
+* toBeDefined()
+* toBeUndefined()
+* toBeNull()
+* toBeTruthy()
+* toBeFalsy()
+* toContain() (Item in array)
+* toBeLessThan(Value)
+* toBeGreaterThan(Value)
+* toBeCloseTo(Value, Limit) (Value+/- Limit)
+* toThrow()
+
+== Setup and TearDown
++++++
+<script src="https://gist.github.com/3904157.js"> </script>
++++++
+
+== Spies 
+* Used by Jasmine to Mock functions
+
+
+== Spies Call Through 
+
+== Spies  Return
+
+== Spies Call Fake
+
+== Mocking the Clock
+
+== Asynchronous Support
+
+
