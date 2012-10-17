@@ -1,18 +1,21 @@
 = Backbone Class Outline
-==Day 1
+
+== Day 1
 === Morning
 
-* <01a_testing_selenium.html>
-* <01b_testing_qunit.html>
-* <01c_testing_jasmine.html>
-* <01d_testing_phantomjs.html>
-* <01e_testing_tdd.html>
+* link:01a_testing_selenium.html[]
+* link:01b_testing_qunit.html[]
+* link:01c_testing_jasmine.html[]
+* link:01d_testing_phantomjs.html[]
+* link:01e_testing_tdd.html[]
+
 === Afternoon
-* <02_underscore.html>
+* link:02_underscore.html[]
 
 == Day 2
 === Morning
-* <03_backbone.html>
+
+* link:03_backbone.html[]
 
 === Afternoon
 
