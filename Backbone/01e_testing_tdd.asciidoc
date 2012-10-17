@@ -10,6 +10,17 @@ include::../slide_front_matter.asciidoc[]
 . Repeat  
 
 
+== Rules for Good Tests
+* Tests are definitive 
+* No ifs ands or buts
+** Setup 
+** Run Code
+** Assertions
+** Cleanup
+
+== How to test tests
+* Break your code!
+
 == Workshop
 
 
