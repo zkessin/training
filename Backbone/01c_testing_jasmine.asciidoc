@@ -12,7 +12,7 @@ include::../slide_front_matter.asciidoc[]
 == Jasmine 
 
 * From pivotal Labs
-* <<http://pivotal.github.com/jasmine/>>
+* <http://pivotal.github.com/jasmine/>
 
 == Basic Test
 ++++
@@ -23,7 +23,8 @@ include::../slide_front_matter.asciidoc[]
 <script src="https://gist.github.com/3904139.js"></script>
 +++++
 
-== Matchers* toMatch(Regexp)
+== Matchers (Not a full list)
+* toMatch(Regexp)
 * toBeDefined()
 * toBeUndefined()
 * toBeNull()
@@ -34,6 +35,7 @@ include::../slide_front_matter.asciidoc[]
 * toBeGreaterThan(Value)
 * toBeCloseTo(Value, Limit) (Value+/- Limit)
 * toThrow()
+=== All Matchers can be inverted with +.not+
 
 == Custom Matchers
 * Use to create custom assertions
@@ -55,7 +57,9 @@ include::../slide_front_matter.asciidoc[]
 
 == Spies Call Through 
 * Call the Spy and the actual Function 
-
+.....
+spyOn(foo, "Bar").andCallThrough()
+.....
 
 == Spies  Return
 * set the Return Value of the Spy
