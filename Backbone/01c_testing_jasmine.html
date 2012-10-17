@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Underscore.js</title>
+<title>Testing With Jasmine</title>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="generator" content="AsciiDoc 8.6.7" />
 <style type="text/css">
@@ -3837,7 +3837,7 @@ setTimeout(w3c_slidy.hide_slides, 50);
 </head>
 <body class="article">
 <div id="header" class="slide">
-<h1>Underscore.js</h1>
+<h1>Testing With Jasmine</h1>
 </div>
 <div class="sect1 slide">
 <h1 id="_zachary_kessin">Zachary Kessin</h1>
@@ -3920,354 +3920,265 @@ HTML5 For Mobile - Building for IPad with Phonegap - TBA
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_underscore_js">Underscore.js</h1>
+<h1 id="_options_for_testing">Options for Testing</h1>
 <div class="sectionbody">
 <ul class="">
 <li>
 <span>
-Created by Jeremy Ashkanaz at the New York Times
+JSUnit (Defunct)
 </span>
 </li>
 <li>
 <span>
-Spun off from Document Cloud Project
+Selenium
 </span>
 </li>
 <li>
 <span>
-Key dependency of backbone.js
+QUnit
 </span>
 </li>
 <li>
 <span>
-Current Version 1.4.2
-</span>
-</li>
-</ul>
-<div class="paragraph"><p><a href="http://underscorejs.org/">http://underscorejs.org/</a></p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_js_the_basics">Underscore.js the basics:</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Consistent Functional Interface
-</span>
-</li>
-<li>
-<span>
-Operations are pure functions
-</span>
-</li>
-<li>
-<span>
-Allows for Chaining of operations
-</span>
-</li>
-<li>
-<span>
-Works in the browser and in node.js
-</span>
-</li>
-<li>
-<span>
-Easy to create Mixins
-</span>
-</li>
-<li>
-<span>
-Ports to Lua, PHP, Objective-C, Perl and Coldfusion
+<strong>Jasmine</strong>
 </span>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_general_list_collection_functions">General List/Collection  functions</h1>
+<h1 id="_jasmine">Jasmine</h1>
 <div class="sectionbody">
 <ul class="">
 <li>
 <span>
-Functions take a list or collection
+From pivotal Labs
 </span>
 </li>
 <li>
 <span>
-Functions return a <strong>new</strong> list or collection
+<a href="http://pivotal.github.com/jasmine/">http://pivotal.github.com/jasmine/</a>
 </span>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_map">Map</h1>
+<h1 id="_basic_test">Basic Test</h1>
 <div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Takes a list and a function returns a new list
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3684835.js"></script>
+<script src="https://gist.github.com/3904130.js"></script>
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_filter">Filter</h1>
+<h1 id="_negative_test">Negative Test</h1>
 <div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Takes a list and returns a subset
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3720812.js"> </script>
+<script src="https://gist.github.com/3904139.js"></script>
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_groupby">groupBy()</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Splits a collection into groups
-</span>
-</li>
-</ul>
-<div class="paragraph"><p>Example: take a list of customers and split by country</p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_any_and_all">any() and all()</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-any(): true if <strong>at least</strong> 1 item passes
-</span>
-</li>
-<li>
-<span>
-all(): true if <strong>all</strong> items pass
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3720857.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_collection_functions">Collection functions</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-_.extend(Source, Extra*)
-</span>
-</li>
-<li>
-<span>
-_.defaults(Source, Extras*)
-</span>
-</li>
-<li>
-<span>
-_.clone(Source)
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_templates">Templates</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Basic Templating Engine
-</span>
-</li>
-<li>
-<span>
-use the <tt>_.template()</tt> function to create
-</span>
-<ul class="">
-<li>
-<span>
-Options
-</span>
-</li>
-<li>
-<span>
-&lt;%= &#8658; render resulting data into HTML
-</span>
-</li>
-<li>
-<span>
-&lt;% %&gt; run code (use print to output data)
-</span>
-</li>
-<li>
-<span>
-&lt;%- %&gt; HTML Escaped version
-</span>
-</li>
-</ul>
-</li>
-</ul>
-<script src="https://gist.github.com/3904355.js"> </script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_string_library">Underscore String Library</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Functions for working with Strings
-</span>
-</li>
-<li>
-<span>
-Mixin for Underscore
-</span>
-</li>
-</ul>
-<div class="paragraph"><p><a href="http://epeli.github.com/underscore.string/">http://epeli.github.com/underscore.string/</a></p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_string_highlights">Underscore.string highlights</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-_.prune() - Prune string do a fixed length with &#8230;
-</span>
-</li>
-<li>
-<span>
-_.join() - Joins string together with a glue string
-</span>
-</li>
-<li>
-<span>
-_.isBlank("String") - True if sting matches /^\s*$/
-</span>
-</li>
-<li>
-<span>
-_.startsWith(), _.endsWidth()
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_string_example">Underscore.string example</h1>
-<div class="sectionbody">
-<div class="paragraph"><p>TODO Example</p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_chaining">Chaining</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3720694.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_developing_an_function_library">Developing an Function Library</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Keep functions Short (&lt; 5 lines each)
-</span>
-</li>
-<li>
-<span>
-Use pure (or mostly pure) functions
-</span>
-</li>
-<li>
-<span>
-Practice TDD
-</span>
-</li>
-<li>
-<span>
-Namespace functions
-</span>
-</li>
-<li>
-<span>
-Use Generators
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_function_library_examples">Function Library Examples</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3854111.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_functions_as_algebra">Functions as Algebra</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Use simple functions for operations (&lt; 5 lines of code)
-</span>
-</li>
-<li>
-<span>
-focus on the what not the how
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_chaining_2">Chaining (2)</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3720694.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_underscore_mixin_catalog">Underscore Mixin Catalog</h1>
-<div class="sectionbody">
-<div class="paragraph"><p><a href="https://github.com/documentcloud/underscore/wiki/Mixin-Catalog">https://github.com/documentcloud/underscore/wiki/Mixin-Catalog</a></p></div>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_workshop">Workshop</h1>
+<h1 id="_matchers_not_a_full_list">Matchers (Not a full list)</h1>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_working_with_data_from_yql">Working with Data from YQL</h3>
+<h3 id="_all_matchers_can_be_inverted_with_tt_not_tt">All Matchers can be inverted with <tt>.not</tt></h3>
 <ul class="">
 <li>
 <span>
-Query News stories
+toMatch(Regexp)
 </span>
 </li>
 <li>
 <span>
-Group by source
+toBeDefined()
 </span>
 </li>
 <li>
 <span>
-Format with templates
+toBeUndefined()
+</span>
+</li>
+<li>
+<span>
+toBeNull()
+</span>
+</li>
+<li>
+<span>
+toBeTruthy()
+</span>
+</li>
+<li>
+<span>
+toBeFalsy()
+</span>
+</li>
+<li>
+<span>
+toContain() (Item in array)
+</span>
+</li>
+<li>
+<span>
+toBeLessThan(Value)
+</span>
+</li>
+<li>
+<span>
+toBeGreaterThan(Value)
+</span>
+</li>
+<li>
+<span>
+toBeCloseTo(Value, Limit) (Value+/- Limit)
+</span>
+</li>
+<li>
+<span>
+toThrow()
 </span>
 </li>
 </ul>
-<div class="paragraph"><p>TODO: SETUP</p></div>
 </div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_custom_matchers">Custom Matchers</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Use to create custom assertions
+</span>
+</li>
+</ul>
+<script src="https://gist.github.com/3904251.js"></script>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_setup_and_teardown">Setup and TearDown</h1>
+<div class="sectionbody">
+<script src="https://gist.github.com/3904157.js"> </script>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_spies">Spies</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Used by Jasmine to Mock functions
+</span>
+</li>
+<li>
+<span>
+created with <tt>spyOn(Object, MethodName)</tt>
+</span>
+</li>
+<li>
+<span>
+Matchers for Spies
+</span>
+<ul class="">
+<li>
+<span>
+toHaveBeenCalled()
+</span>
+</li>
+<li>
+<span>
+toHaveBeenCalledWidth(Params)
+</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_spies_call_through">Spies Call Through</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Call the Spy and the actual Function
+</span>
+</li>
+</ul>
+<div class="literalblock">
+<div class="content">
+<pre><tt>spyOn(foo, "Bar").andCallThrough()</tt></pre>
+</div></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_spies_return">Spies  Return</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+set the Return Value of the Spy
+</span>
+</li>
+</ul>
+<div class="literalblock">
+<div class="content">
+<pre><tt>spyOn(foo, "Bar").andReturn(1234);</tt></pre>
+</div></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_spies_call_fake">Spies Call Fake</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Redirect the call to a supplied function
+</span>
+</li>
+</ul>
+<div class="literalblock">
+<div class="content">
+<pre><tt>spyOn(foo, "Bar").andCallFake(function () { /* .... */});</tt></pre>
+</div></div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_mocking_the_clock">Mocking the Clock</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Useful for setInterval and setTimeout
+</span>
+</li>
+<li>
+<span>
+Enable you to move the clock forward by N ticks
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_asynchronous_support">Asynchronous Support</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Use the Function runs / waitFor
+</span>
+</li>
+<li>
+<span>
+Ideally you should try to replace these with spies
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_running_your_tests">Running your Tests</h1>
+<div class="sectionbody">
+<script src="https://gist.github.com/3904311.js"></script>
 </div>
 </div>
 </body>
