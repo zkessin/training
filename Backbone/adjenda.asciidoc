@@ -1,0 +1,35 @@
+= Class
+
+== Day 1
+=== Morning - Testing
+
+* Testing 
+** Selenium
+** QUnit
+** Jasmine
+* TDD
+* PhantomJS
+
+=== Afternoon - Underscore
+* Functional Programming
+* Underscore
+
+== Day 2
+=== Morning  - Backbone 
+* Events
+* Models
+* Collections 
+* Views and Rendering
+
+=== Afternoon - Backbone Pt 2
+* Sync
+* Router History and URLS
+
+== Day 3
+=== Morning Backbone Patterns
+* Backbone Patterns
+=== Afternoon Backbone Widgets and tools
+* Marionette
+* Widgets 
+
+ 
