@@ -1,5 +1,5 @@
 [[jquery_workshop]]
-==  jQuery Novice to Master
+==  jQuery Workshop
 
 Building in Browser applications can be a nightmare, "You are in a
 maze of twisty little browsers, none alike". Trying to figure out how
