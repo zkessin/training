@@ -11,8 +11,13 @@ In addition to these classes I can also teach classes on introduction
 to Javascript and the browser, JQuery, Test Driven Development in
 Javascript and more. email for information.
 
-include::javascript_jquery/abstract.asciidoc[]
-link:javascript_jquery/syllabus.html[Class Syllabus]
+include::workshop_jquery/abstract.asciidoc[]
+link:workshop_jquery/syllabus.html[Class Syllabus]
+
+include::workshop_javascript_tdd/abstract.asciidoc[]
+link:workshop_javascript_tdd/syllabus.html[Class Syllabus]
+
+
 
 include::Backbone/abstract.asciidoc[]
 link:Backbone/syllabus.html[Class Syllabus]
