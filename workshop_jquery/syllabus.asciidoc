@@ -1,0 +1,9 @@
+= jQuery Workshop
+
+
+* What is jQuery
+* $ The capture Operator
+* Manipulating node sets
+* Creating New Nodes
+* Chaining Operators
+* Events and handlers
