@@ -12,7 +12,27 @@ include::../slide_front_matter.asciidoc[]
 
 link:http://underscorejs.org/[]
 
+== JavaScript Functions 
+* JavaScript gets its functions from Scheme and Lisp
+* Functions are first class data
+* Functions are lexical closures
 
+............
+is_even = function (x) {
+ 	return x % 2 === 0;
+};
+............
+
+............
+function is_even (x) {
+ 	return x % 2 === 0;
+}
+............
+
+== Closures 
+++++++
+<script src="https://gist.github.com/3917983.js"></script>
+++++++
 
 == Underscore.js the basics:
 

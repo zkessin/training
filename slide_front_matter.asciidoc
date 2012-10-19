@@ -10,7 +10,7 @@ image:../img/programming_html5_applications.jpeg[]
 
 == Upcoming Classes
 
-*link:http://html5.webninjaschool.com/[Building
+* link:http://html5.webninjaschool.com/[Building
   HTML5 Applications] 24, 31 October, 7 November
 * link:http://erlang.webninjaschool.com/[Erlang] 14,21,28 Nov 5, 12,
   19 December 
@@ -23,4 +23,7 @@ image:../img/programming_html5_applications.jpeg[]
   Programming With CoffeeScript] TBA
 * JQuery Workshop
 * JavaScript TDD Workshop
-To Sign up Contact Elan Perach 054-788-0094
+
+To Sign up Contact Elan Perach at Web Ninja Schools 054-788-0094
+
+NOTE: All classes taught in English
