@@ -1,0 +1,17 @@
+== Javascript TDD and Pair Programming workshop (1 Day)
+
+This is a one day workshop designed to introduce programmers to Pair
+Programming and TDD in Javascript. Bring your laptop and get ready to
+write code as this workshop will feature not much lecture and a lot of
+lab. 
+
+We will explore the ideas of TDD, along with Testing frameworks QUnit
+and Jasmine. Once we explore the ideas of testing we will pair off and
+use the Cloud 9 IDE to write code. 
+
+
+
+****
+Class will be given in English
+****   
+ 

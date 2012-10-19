@@ -1,0 +1,12 @@
+= Testing and Pair Programming workshop
+
+* Concepts of TDD
+* Writing code for testing
+* 
+
+* QUnit and Jasmine
+** Browser Automation with Selenium 
+** Testing with QUnit
+** Testing With Jasmine
+** Setting up Mocks
+** Using PhantomJS
