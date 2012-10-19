@@ -23,6 +23,8 @@ covered along with jQuery's plugin interface.
 The class will features lectures and extensive workshops. Basic
 knowledge of JavaScript is needed.  
 
+This class is an extended version of the JQuery workshop
+
 ****
 Class will be taught in English
 ****
