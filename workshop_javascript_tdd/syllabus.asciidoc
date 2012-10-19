@@ -10,3 +10,6 @@
 ** Testing With Jasmine
 ** Setting up Mocks
 ** Using PhantomJS
+
+* Using Continuous Integration
+** Travis-CI and Github 
