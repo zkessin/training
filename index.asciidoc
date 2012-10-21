@@ -11,6 +11,13 @@ In addition to these classes I can also teach classes on introduction
 to Javascript and the browser, JQuery, Test Driven Development in
 Javascript and more. email for information.
 
+include::workshop_jquery/abstract.asciidoc[]
+link:workshop_jquery/syllabus.html[Class Syllabus]
+
+include::workshop_javascript_tdd/abstract.asciidoc[]
+link:workshop_javascript_tdd/syllabus.html[Class Syllabus]
+
+
 include::javascript_jquery/abstract.asciidoc[]
 link:javascript_jquery/syllabus.html[Class Syllabus]
 
@@ -28,6 +35,10 @@ link:html5_for_application_developers/syllabus.html[Class Syllabus]
 
 include::functional_programming_with_coffeescript/abstract.asciidoc[]
 link:functional_programming_with_coffeescript/syllabus.html[Class Syllabus]
+
+include::html5_for_mobile/abstract.asciidoc[]
+Class Syllabus coming soon! 
+
 
 include::collaborating_with_git/abstract.asciidoc[]
 link:collaborating_with_git/syllabus.html[Class Syllabus]

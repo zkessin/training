@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Testing in Javascript with QUnit</title>
+<title>Backbone Marionette</title>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="generator" content="AsciiDoc 8.6.7" />
 <style type="text/css">
@@ -3837,7 +3837,7 @@ setTimeout(w3c_slidy.hide_slides, 50);
 </head>
 <body class="article">
 <div id="header" class="slide">
-<h1>Testing in Javascript with QUnit</h1>
+<h1>Backbone Marionette</h1>
 </div>
 <div class="sect1 slide">
 <h1 id="_zachary_kessin">Zachary Kessin</h1>
@@ -3938,235 +3938,37 @@ JavaScript TDD Workshop
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_options_for_testing">Options for Testing</h1>
+<h1 id="_why_marionette">Why Marionette</h1>
 <div class="sectionbody">
 <ul class="">
 <li>
 <span>
-JSUnit (Defunct)
+Backbone is very flexible
 </span>
 </li>
 <li>
 <span>
-Selenium
+Many ways to solve some problems
 </span>
 </li>
 <li>
 <span>
-<strong>QUnit</strong>
-</span>
-</li>
-<li>
-<span>
-Jasmine
+Often simple patterns not implemented by default
 </span>
 </li>
 </ul>
+<div class="sect2">
+<h3 id="_lets_add_another_layer_to_handle_this">Lets add another layer to handle this!</h3>
+</div>
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_qunit">QUnit</h1>
+<h1 id="_marionette">MARIONETTE</h1>
 <div class="sectionbody">
 <ul class="">
 <li>
 <span>
-QUnit should be used for Unit testing
-</span>
-</li>
-<li>
-<span>
-<a href="http://qunitjs.com">http://qunitjs.com</a>
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_setting_up_qunit">Setting up QUnit</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3838515.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_a_basic_qunit_test">A basic QUnit Test</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3838520.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_qunit_assertions">QUnit Assertions</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-ok(A, Msg)
-</span>
-</li>
-<li>
-<span>
-equal(A, B, Msg)
-</span>
-</li>
-<li>
-<span>
-deapEqual(A, B, Msg)
-</span>
-</li>
-<li>
-<span>
-notEqual(A,B, Msg)
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_organising_tests">Organising tests</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-test
-</span>
-</li>
-<li>
-<span>
-module
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3838527.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_starting_and_stopping">Starting and Stopping</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Use when code is expecting callbacks
-</span>
-</li>
-<li>
-<span>
-will pause the test suite until "start" is called"
-</span>
-</li>
-<li>
-<span>
-Stop before the async opp
-</span>
-</li>
-<li>
-<span>
-Start in the callback
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3838532.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_expect">Expect</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Set the number of assertions that a test should have
-</span>
-</li>
-<li>
-<span>
-Use for async testing and the like
-</span>
-</li>
-<li>
-<span>
-expect(Number)
-</span>
-</li>
-</ul>
-<script src="https://gist.github.com/3838533.js"></script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_testing_ajax">Testing Ajax</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Network Requests take an undetermined amount of time
-</span>
-</li>
-<li>
-<span>
-Networks can fail
-</span>
-</li>
-<li>
-<span>
-It Is an end-to-end test
-</span>
-</li>
-<li>
-<span>
-use a mock
-<a href="https://github.com/appendto/jquery-mockjax">https://github.com/appendto/jquery-mockjax</a>
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_testing_the_dom">Testing the DOM</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-The DOM can be slow
-</span>
-</li>
-<li>
-<span>
-The dom may be in an uncertain state
-</span>
-</li>
-<li>
-<span>
-Solution: Reset the state of the DOM before each test
-</span>
-</li>
-<li>
-<span>
-Solution: Use Mock Templates
-</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_mock_templates">Mock Templates</h1>
-<div class="sectionbody">
-<script src="https://gist.github.com/3838579.js"> </script>
-</div>
-</div>
-<div class="sect1 slide">
-<h1 id="_strategies_for_testing">Strategies for Testing</h1>
-<div class="sectionbody">
-<ul class="">
-<li>
-<span>
-Isolate AJAX with Backbone (Or Similar)
-</span>
-</li>
-<li>
-<span>
-Isolate Dom interaction
-</span>
-</li>
-<li>
-<span>
-Pure functions can be tested with Node.js or Rhino
+Provides common mechanisms for many operations
 </span>
 </li>
 </ul>

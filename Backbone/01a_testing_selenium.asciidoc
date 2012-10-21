@@ -1,4 +1,4 @@
-= Testing in Javascript with QUnit
+= Testing in Javascript with Selenium
 
 include::../slide_front_matter.asciidoc[]
 
