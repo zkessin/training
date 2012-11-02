@@ -1,41 +1,41 @@
 = Collaborations with Git and Github
 == 2 Day Class
-* Day 1 - GIT
-** Why Git is not like SVN
-** Git from the command line
-** Git on the Mac and Windows
-** Using Git with Eclipse
-** Creating a repository
-** Adding, Removing and Committing files
-** Git History
-** Branches
-** Other git tools, (blame, diff)
-** Push, pull and fetch
-* Day 2 - Github
-** What is github
-** Using Github for collaboration
-** The pull request
-** Network graph
-** Issue Tracker
-** Continuous Integration with Travis-CI 
-** Work flows
-*** 3 Guys with Laptops
-*** Github's internal Work flow
-*** Linux Kernel Team
-*** Open Source Project
+=== Day 1 - GIT
+* Why Git is not like SVN
+* Git from the command line
+* Git on the Mac and Windows
+* Using Git with Eclipse
+* Creating a repository
+* Adding, Removing and Committing files
+* Git History
+* Branches
+* Other git tools, (blame, diff)
+* Push, pull and fetch
+=== Day 2 - Github
+* What is github
+* Using Github for collaboration
+* The pull request
+* Network graph
+* Issue Tracker
+* Continuous Integration with Travis-CI 
+* Work flows
+** 3 Guys with Laptops
+** Github's internal Work flow
+** Linux Kernel Team
+** Open Source Project
 
 == 1 Day class
-** What is Version Control
-** Git from the command line
-** Git on the Mac and Windows
-** Creating a repository
-** Adding, Removing and Committing files
-** Git History
-** Branches
-** Push, pull and fetch
-** What is GitHub
-** The pull request
-** Network graph
-** Work flows
+* What is Version Control
+* Git from the command line
+* Git on the Mac and Windows
+* Creating a repository
+* Adding, Removing and Committing files
+* Git History
+* Branches
+* Push, pull and fetch
+* What is GitHub
+* The pull request
+* Network graph
+* Work flows
 
 
