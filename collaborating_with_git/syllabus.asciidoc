@@ -1,5 +1,5 @@
 = Collaborations with Git and Github
-
+== 2 Day Class
 * Day 1 - GIT
 ** Why Git is not like SVN
 ** Git from the command line
@@ -24,5 +24,18 @@
 *** Linux Kernel Team
 *** Open Source Project
 
+== 1 Day class
+** What is Version Control
+** Git from the command line
+** Git on the Mac and Windows
+** Creating a repository
+** Adding, Removing and Committing files
+** Git History
+** Branches
+** Push, pull and fetch
+** What is GitHub
+** The pull request
+** Network graph
+** Work flows
 
 
