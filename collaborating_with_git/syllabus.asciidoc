@@ -1,6 +1,8 @@
 = Collaborations with Git and Github
 == 2 Day Class
+
 === Day 1 - GIT
+
 * Why Git is not like SVN
 * Git from the command line
 * Git on the Mac and Windows
@@ -11,7 +13,9 @@
 * Branches
 * Other git tools, (blame, diff)
 * Push, pull and fetch
+
 === Day 2 - Github
+
 * What is github
 * Using Github for collaboration
 * The pull request
